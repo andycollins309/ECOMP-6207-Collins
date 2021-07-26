@@ -1,4 +1,4 @@
-# Set Camp Costs
+# Set Camp Costs. This allows you to change the price of the three products abstractely. 
 cost_campers = 435
 cost_adults = 100
 cost_photos = 13
