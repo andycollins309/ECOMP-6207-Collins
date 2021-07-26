@@ -1,7 +1,7 @@
 # Set Camp Costs
 cost_campers = 435
 cost_adults = 100
-cost_photos = 10
+cost_photos = 13
 # Greeting
 print('Hello and welcome to camp! I am your check-in chatbot.')
 name = input('What is your name?')
@@ -15,7 +15,7 @@ adults = input('How many adult leaders will be here this week?')
 nadults = int(adults)
 print('Your cost for adults this year is $', nadults * cost_adults)
 # Total Camp Fee Calculation
-print('Your total camper cost this season is $', cost_campers + cost_adults)
+print('Your total camper cost this season is $', (ncampers * cost_campers) + (nadults * cost_adults))
 # Photo Order
 photos = input('How many camp photos would you like to purchase?')
 nphotos = int(photos)
